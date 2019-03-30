@@ -8,6 +8,8 @@ const Login = props => {
   const userPassEl = useRef(null);
   const [loggedIn, setloggedIn] = useState(false);
   const [error, setError] = useState(null);
+  // Your Google API Key.
+  const API_KEY = "YOUR GOOGLE API KEY";
 
   useEffect(() => {
     const idToken = localStorage.getItem("idToken");
@@ -31,7 +33,7 @@ const Login = props => {
       returnSecureToken: true
     };
     axios
-      .post(authURL + "AIzaSyD3uCC_SpT-w0pratsc_qPxDE-z5NNfWxk", userInfo)
+      .post(authURL + API_KEY, userInfo)
       .then(res => {
         if (res && res.data) {
           const expiresIn = res.data.expiresIn
