@@ -1,0 +1,33 @@
+.Login {
+    margin: 20px auto;
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background: white;
+    box-shadow: 2px 2px #dcdcdc;
+}
+
+.Login-form-label {
+    display: inline-block;
+    font-size: 20px;
+    min-width: 100px;
+}
+
+.Login-form-input {
+    width: 300px;
+    font-size: 20px;
+}
+
+.Login-form-input:invalid {
+    border: 1px solid red;
+}
+
+.Login-form-submit {
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+.Login .Error {
+    font-weight: bold;
+    color: red;
+}

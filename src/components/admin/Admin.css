@@ -1,0 +1,13 @@
+.Admin {
+    text-align: center;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.Admin .btn {
+    font-size: 20px;
+    padding: 5px 15px;
+    margin: 10px;
+}

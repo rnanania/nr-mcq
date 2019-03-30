@@ -1,0 +1,36 @@
+.Poll {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.Poll .Poll-Item {
+    display: block;
+    position: relative;
+    padding: 10px 0px;
+    clear: both;
+    background: white;
+    max-width: 768px;
+    margin: 15px auto;
+    box-shadow: 2px 2px #dcdcdc;
+}
+
+.Poll .Poll-Item .Poll-Question {
+    font-weight: bold;
+}
+
+.Poll .Poll-Item .Poll-Choice {
+    display: inline-block;
+}
+
+.Poll .btn {
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+.Poll-choice {
+    display: block;
+    margin-top: 10px;
+}

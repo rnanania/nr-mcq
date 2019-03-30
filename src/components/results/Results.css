@@ -1,0 +1,22 @@
+.Results {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.Results .Results-Item {
+    display: block;
+    position: relative;
+    padding: 10px 0px;
+    clear: both;
+    background: white;
+    max-width: 768px;
+    margin: 15px auto;
+    box-shadow: 2px 2px #dcdcdc;
+}
+
+.Results .Results-Item .Results-Question {
+    font-weight: bold;
+}

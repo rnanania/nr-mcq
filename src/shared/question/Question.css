@@ -1,0 +1,34 @@
+.Question {
+    display: block;
+    position: relative;
+    clear: both;
+    background: white;
+    max-width: 768px;
+    margin: 15px auto;
+    box-shadow: 2px 2px #dcdcdc;
+}
+
+.Question .Question-text {
+    width: 320px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Question .Question-choice {
+    display: block;
+    width: 250px;
+    font-size: 20px;
+    margin: auto;
+}
+
+.Question .Question-text:invalid,
+.Question .Question-choice:invalid {
+    border: 1px solid red;
+}
+
+.Question .Btn {
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px 15px;
+    margin: 10px 5px;
+}
